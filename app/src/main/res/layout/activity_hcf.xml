@@ -11,13 +11,13 @@
         android:id="@+id/tvHeading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hcf_of_two_numbers_heading"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
         android:paddingLeft="15dp"
-        android:layout_marginTop="10dp"
-        />
+        android:text="@string/hcf_of_two_numbers_heading"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etFirstNumber"
@@ -51,22 +51,32 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="5dp"
-        android:textSize="30sp"/>
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btnHCF"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:text="HCF" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="HCF"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp"/>
-
-    </LinearLayout>
+    <TextView
+        android:id="@+id/tvAboutHCF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_HCF"
+        android:layout_marginTop="30dp"
+        android:layout_weight="40"
+        android:paddingLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:justificationMode="inter_word"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#333"/>
 </LinearLayout>
