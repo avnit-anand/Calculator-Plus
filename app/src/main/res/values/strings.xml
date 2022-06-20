@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator Plus</string>
+    <string name="enter_first_number">Enter first number.</string>
+    <string name="enter_second_number">Enter second number.</string>
+    <string name="_1">1</string>
+    <string name="lcm_of_two_numbers">LCM of two numbers</string>
+    <string name="lcm">LCM</string>
+    <string name="_2">2</string>
+    <string name="hcf_of_two_numbers">HCF of two numbers</string>
+    <string name="hcf_of_two_numbers_heading">HCF of two numbers :</string>
+</resources>
