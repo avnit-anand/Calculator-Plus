@@ -8,4 +8,6 @@
     <string name="_2">2</string>
     <string name="hcf_of_two_numbers">HCF of two numbers</string>
     <string name="hcf_of_two_numbers_heading">HCF of two numbers :</string>
+    <string name="about_HCF">HCF of two number is the highest number which divides the both number. For example, 12 and 21 , 3 is the highest number which divides both the number.</string>
+    <string name="about_LCM">LCM of two number is product of these number divides by HCF of two number where HCF of two number is the highest number which divides the both number.</string>
 </resources>
