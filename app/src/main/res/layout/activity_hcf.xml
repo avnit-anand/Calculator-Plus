@@ -74,6 +74,7 @@
         android:layout_weight="40"
         android:paddingLeft="15dp"
         android:layout_marginRight="15dp"
+        android:layout_marginLeft="10dp"
         android:textSize="20sp"
         android:justificationMode="inter_word"
         android:fontFamily="cursive"
